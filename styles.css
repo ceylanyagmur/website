@@ -12,6 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
   font-size: 1.2rem;
   position: sticky;
   top: 0;
@@ -24,8 +25,8 @@
   z-index: 1;
   width: 100%;
   max-width: 1300%;
-  margin: 0 auto;
-  padding: 0 50px;
+  margin: 2px;
+  padding: 1px;
 }
 
 #navbar_logo {
@@ -47,6 +48,8 @@
   display: flex;
   align-items: center;
   list-style: none;
+  margin: 1px;
+  padding: 1px;
 }
 
 .navbar_item {
@@ -62,6 +65,7 @@
   text-decoration: none;
   height: 100%;
   transition: all 0.3s ease;
+  margin: 5px;
 }
 
 .navbar_btn {
